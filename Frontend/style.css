@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000000;
+    color: #ffffff99;
+    padding: 5em 6em;
+}
+h1,h2{
+    color: rgb(42, 165, 122);
+    font-size: 2em;
+}
+
+
+.container{
+    background: #333;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+
+
+.form-control label{
+    font-size: 1.2em;
+}
+.form-control select,
+.form-control input[type="file"],
+.form-control textarea,
+.form-control input{
+    width: 100%;
+    margin:.8em 0 1em 0;
+    padding: .8em;
+    background: #000000;
+    color: rgb(42, 165, 122);
+    border: none;
+    border-radius: .4em;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.form-control select:focus,
+.form-control input[type="file"]:focus,
+.form-control textarea:focus,
+.form-control input:focus{
+    outline: 1px solid rgb(42, 165, 122)
+}
+
+.btn-submit{
+    border: 1px solid rgb(42, 165, 122);
+    padding: .5em 1em;
+    color: rgb(42, 165, 122);
+    transition: .5s;
+    border-radius: 1em;
+    width: 100%;
+}
+.btn-submit:hover{
+    background: rgb(42, 165, 122);
+    color: white;
+}
+
+.tbl-img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+
+.form-show{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2em;
+    max-height: 700px;
+}
+#form-submit{
+    flex-grow: 2;
+}
+
+#right{
+    width: 50%;
+    overflow-y: auto;
+}
+
+@media screen and (max-width:1050px) {
+    .form-show{
+        flex-direction: column;
+        max-height: fit-content;
+    }
+    #right{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:680px) {
+    body{
+        padding:2em 1.5em;
+    }
+    .container{
+        border-radius: .4em;
+    }
+}

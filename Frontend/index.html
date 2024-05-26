@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bulma CSS Framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+    <!-- Custom CSS Design -->
+    <link rel="stylesheet" href="style.css" />
+    <title>XHR CRUD | XML Http Request</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>XHR CRUD Operation</h1>
+    </div>
+    <div class="container form-show">
+        <form id="form-submit">
+            <h2>Create new post</h2><br><br>
+            <div class="form-control">
+                <label for="title">Title</label>
+                <input type="text" id="title" placeholder="your title">
+            </div>
+            <div class="form-control">
+                <label for="file">Image</label>
+                <input type="file" id="file">
+            </div>
+            <div class="form-control">
+                <label for="status">Status</label>
+                <select name="" id="status">
+                    <option value="active">active</option>
+                    <option value="disable">disable</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label for="description">Description</label>
+                <textarea type="text" rows="4" id="description" placeholder="type about your post"></textarea>
+            </div>
+            <button class="btn btn-submit">Submit</button>
+        </form>
+        <div id="right">
+            <h2>tiltle</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur nisi reprehenderit voluptate impedit esse, unde alias omnis labore possimus eum blanditiis quia odit rerum consequatur doloremque quis aperiam? Corporis?
+        </div>
+    </div>
+
+    <div class="table-container container">
+        <table class="table is-bordered is-striped is-hoverable is-fullwidth">
+            <thead>
+                <tr class="is-warn">
+                  <th>id</th>
+                  <th>Title</th>
+                  <th>Descrition</th>
+                  <th>Status</th>
+                  <th>Date</th>
+                  <th>File</th>
+                  <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="showPost">              
+            </tbody>
+          </table>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
